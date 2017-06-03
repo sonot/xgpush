@@ -144,8 +144,9 @@
 
     <!-- device related static library, you may need other platform so -->
     <source-file src="sdk/android/libs/armeabi/libtpnsSecurity.so" target-dir="libs/armeabi" />
+	<source-file src="sdk/android/libs/armeabi/libxguardian.so" target-dir="libs/armeabi" />
     <source-file src="sdk/android/Other-Platform-SO/armeabi-v7a/libtpnsSecurity.so" target-dir="libs/armeabi-v7a" />
-
+    <source-file src="sdk/android/Other-Platform-SO/armeabi-v7a/libxguardian.so" target-dir="libs/armeabi-v7a" />
   </platform>
 
   <!-- ios -->
